@@ -39,6 +39,7 @@ function doPost(e) {
   try {
     const d = JSON.parse(e.postData.contents);
     if (d.token !== TOKEN) return out({ ok: false, error: 'Token salah' });
+    if (d.ping) { setup(); return out({ ok: true }); }
     upsertProducts(d.products || []);
     appendStockIn(d.stockIn || []);
     appendSales(d.sales || []);
