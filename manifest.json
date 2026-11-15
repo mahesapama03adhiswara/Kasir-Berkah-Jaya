@@ -1,0 +1,15 @@
+{
+  "name": "Kasir Toko Berkah Jaya",
+  "short_name": "Kasir BJ",
+  "description": "Kasir Grosir Air Minum & Sembako",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0f6b4f",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
